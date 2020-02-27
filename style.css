@@ -1,0 +1,44 @@
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: orangered;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.content{
+display: flex;
+background-color: #ffcc99;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.content > p{
+    width: 100%;
+}
+
+.news:first-child{
+    margin-left: 100px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#breaking{
+    order: -2;
+    text-align: center;
+    width: 100%;   
+}
+
+#breaking > h3 {
+    font-size: 35px;
+}
